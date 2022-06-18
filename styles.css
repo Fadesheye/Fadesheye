@@ -67,10 +67,33 @@
     font-size:2rem;
     margin-right:3rem;
   }
+  .arrowdown{
+    margin-top: 10%;
+  }
+
+  .arrowdown a{
+    font-size: 5.2rem;
+    color: #FFFBFC;
+    text-align: center;
+    scroll-behavior: smooth;
+
+
+   
+  }
+
+  .clickbar{
+    width: 100%;
+  }
+  .arrowdown a:hover{
+    color: #F1DB4B;
+    }
+
   .projects-section{
     background:#FFFBFC;
     text-align:center;
     padding:4rem 2rem;
+    scroll-behavior: smooth;
+
   }
   .projects-header{
     margin:3rem 0;
@@ -96,6 +119,8 @@
     height:calc(100% - 2rem);
   }
   .contact-section{
+    scroll-behavior: smooth;
+
     display:flex;
     flex-direction:column;
     width:80%;justify-content:center;
@@ -171,6 +196,12 @@
     padding:5px 0;
     }
     
+    
+  }
+  @media only screen and (max-width:900px){
+    .arrowdown{
+        display: none;
+    }
   }
   
   
