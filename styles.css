@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+
+
 *{
     margin:0;
     padding:0;
@@ -52,9 +56,9 @@
     color: #F1DB4B;
   }
   #welcome-section p{
-    font-family:"Roboto", sans-serif;
+    font-family:"Raleway", sans-serif;
     font-size:2rem;
-    font-weight:100;
+    font-weight:lighter;
     color: #FFFBFC;
   letter-spacing:0.3rem;
   }
@@ -86,6 +90,33 @@
     color: #F1DB4B;
     }
 
+ #about-me{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    }
+  #about-me h2{
+    margin:0px auto ;
+    font-size: 3.5rem;
+    color:0A0908;
+    font-weight:900;
+    letter-spacing:3px;
+    padding-bottom: 25px;
+  }
+  .about-me-image{
+    width: 50%;
+  }
+
+  .about-me-desc{
+    width: 50%;
+    text-align:left;
+  }  
+
+  
+
   .projects-section{
     background:#FFFBFC;
     text-align:center;
@@ -98,7 +129,7 @@
   }
   #projects h2{
     margin:0px auto ;
-    font-size:4rem;
+    font-size:3.5rem;
     color:0A0908;
     font-weight:900;
     letter-spacing:3px;
