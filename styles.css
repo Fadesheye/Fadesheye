@@ -135,7 +135,7 @@
   #projects h2{
     margin:0px auto ;
     font-size:3.5rem;
-    color:0A0908;
+    color: #0A0908;
     font-weight:900;
     letter-spacing:3px;
   }
@@ -198,7 +198,8 @@
 }
 
   #contact-div{
-    background-color: #F1DB4B;
+    /*background-color: #F1DB4B;*/
+    background-image:linear-gradient(62deg, #3a3d40 0%, #181719 100%);
     width: 100%;
     padding: 4rem 0;
   }
@@ -210,7 +211,8 @@
     text-align:center;
     /*height:80vh;*/
     margin:0 auto;
-    background-image:linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    /*background-image:linear-gradient(62deg, #3a3d40 0%, #181719 100%);*/
+    background-color: #FFFFFF;
     box-shadow: 0 5px 15px 5px rgb(0 0 0 / 50%);
     color:#FFFBFC;
   }
@@ -218,21 +220,21 @@
     font-size:3.5rem;
     padding:1.5rem 1.5rem 3rem;
     letter-spacing:5px;
-    color: #FFFBFC;
-  
+    color: #0A0908;
+    font-weight: 600;
   }
   .contact-section-header p{
     font-size:1.8rem;
-    font-weight:100;
-    color:#F1DB4B;
-      font-family:'Work Sans', sans-serif;
+    font-weight:700;
+    color:#0A0908;
+    font-family:'Work Sans', sans-serif;
   
   }
   .contact-button{
     font-size:3.5rem;
     
     transition:transform .3s ease-out;
-    color:#FFFBFC;
+    color:#0A0908;
     cursor:pointer;
   
   }
@@ -241,12 +243,26 @@
     justify-content:space-around;
     max-width:40%;
     width:40%;
-    
-    margin:0.5rem auto 2.5rem auto;
+    margin:0 auto 2.5rem auto;
   }
   
   .contact-button{
     margin-right:12px;
+  }
+  .b1:hover{
+    color: #4267B2;
+  }
+  .b2:hover{
+    color: #898F9C;
+  }
+  .b3:hover{
+    color: #3b5998;
+  }
+  .b4:hover{
+    color: #1DA1F2;
+  }
+  .b5:hover{
+    color: #4285F4;
   }
   footer{
     max-width:100%;
