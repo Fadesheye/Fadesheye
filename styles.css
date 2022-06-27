@@ -307,8 +307,8 @@
     #navbar{
     display:flex;
     width:100%;
-    max-width:500px;
-    padding:0 5px;
+    max-width:480px;
+    padding:0 0px;
     justify-content:center;
     }
     
