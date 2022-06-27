@@ -93,6 +93,7 @@
 
   .clickbar{
     width: 100%;
+    margin-top:-30px;
   }
   .arrowdown a:hover{
     color: #F1DB4B;
@@ -121,8 +122,18 @@
 
   .about-me-desc{
     width: 50%;
-    text-align:left;
+    text-align:justify;
   }  
+  .skills{
+    display:flex;
+    width:70%;
+    justify-content:space-between;
+    margin:0 auto;
+    font-size: 4rem;
+  }
+  .skills li{
+    list-style:none;
+  }
 
   .projects-section{
     background:#FFFBFC;
@@ -324,7 +335,10 @@
     
     width: 100%;
   }
-      
+
+ .skills{
+    padding:10px 0;
+ }      
     
   }
   @media only screen and (max-width:900px){
