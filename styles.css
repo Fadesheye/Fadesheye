@@ -127,7 +127,7 @@
   .skills{
     display:flex;
     width:70%;
-    justify-content:space-between;
+    justify-content:space-around;
     margin:0 auto;
     font-size: 4rem;
   }
@@ -338,7 +338,15 @@
 
  .skills{
     padding:10px 0;
- }      
+    font-size:3rem;
+    justify-content:space-between;
+ }  
+ #about-me{
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+  padding:0 2rem;
+}    
     
   }
   @media only screen and (max-width:900px){
@@ -348,6 +356,12 @@
     .myprojects-grid{
       max-width: 500px;
     }
+    #about-me{
+      display:flex;
+      justify-content:space-between;
+      width:100%;
+      padding:0 2rem;
+    } 
 
   }
 
@@ -356,6 +370,12 @@
   
   .myprojects-grid{
     max-width: 500px;
+  }
+  #about-me{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    padding:0 2rem;
   }
 
 }
