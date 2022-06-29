@@ -301,16 +301,17 @@
   @media only screen and (max-width:600px){
     body{
     width:100%;
-    max-width:600px;
+    max-width:580px;
     }
 
-    #navbar ul li{
+    #navbar{
+      max-width:580px;
     }
     
     #navbar ul{
-    margin:0 0px 0 0;    
-    margin-left:390px;
-    
+    display:flex;
+    flex-direction:column;
+    margin-left:0;
     } 
     
     #about-me{
