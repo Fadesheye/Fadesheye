@@ -365,6 +365,9 @@
       width:100%;
       padding:0 2rem;
     } 
+    body{
+      overflow-x:hidden;
+    }
 
   }
 
@@ -383,7 +386,10 @@
 }
 
 @media only screen and (max-width:320px){
-  body{max-width:320px;}
+  body{
+    max-width:320px;
+    overflow-x:hidden;
+  }
 }
 
   
