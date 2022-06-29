@@ -304,16 +304,13 @@
     max-width:600px;
     }
 
-    #navbar{
-    display:flex;
-    width:100%;
-    max-width:480px;
-    padding:0 0px;
-    justify-content:center;
+    #navbar ul li{
     }
     
     #navbar ul{
-    margin-right: -53px;    
+    margin:0 0px 0 0;    
+    margin-left:390px;
+    
     } 
     
     #about-me{
